@@ -1,0 +1,15 @@
+spring:
+  #rabbitmq:
+   # host: 192.168.5.105
+    #username: guest
+    #password: guest
+    #port: 5672
+  application:
+    name: config-client
+  cloud:
+    config:
+      label: master
+      profile: dev
+      uri: http://localhost:8888/
+server:
+  port: 8881

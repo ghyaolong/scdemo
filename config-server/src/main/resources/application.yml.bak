@@ -5,11 +5,11 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/ghyaolong/SpringcloudConfig/
+          uri: https://github.com/forezp/SpringcloudConfig/
           search-paths: respo
-          username: 289911401@qq.com
-          password: Yaolong0827
+          username:
+          password:
       label: master
 
 server:
-  port: 8888
+  port: 8889
