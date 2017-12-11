@@ -9,8 +9,10 @@
         <module name="config-client" />
         <module name="config-server" />
         <module name="eruekaserver" />
+        <module name="server-zipkin" />
         <module name="service-feign" />
         <module name="service-hi" />
+        <module name="service-miya" />
         <module name="service-ribbon" />
         <module name="service-zuul" />
       </profile>
@@ -20,8 +22,10 @@
       <module name="config-server" target="1.8" />
       <module name="eruekaserver" target="1.8" />
       <module name="scdemo" target="1.5" />
+      <module name="server-zipkin" target="1.8" />
       <module name="service-feign" target="1.8" />
       <module name="service-hi" target="1.8" />
+      <module name="service-miya" target="1.8" />
       <module name="service-ribbon" target="1.8" />
       <module name="service-zuul" target="1.8" />
     </bytecodeTargetLevel>
